@@ -1,0 +1,250 @@
+/* ==========================================================
+   RESPONSIVE.CSS
+   Project : İlan Evi
+========================================================== */
+
+
+/* ==========================================================
+   ≤ 1400px
+========================================================== */
+
+@media (max-width:1400px){
+
+    :root{
+
+        --container-width:1200px;
+
+    }
+
+}
+
+
+/* ==========================================================
+   ≤ 1200px
+========================================================== */
+
+@media (max-width:1200px){
+
+    :root{
+
+        --container-width:1000px;
+
+    }
+
+    .hero{
+
+        min-height:auto;
+
+        padding-block:6rem;
+
+    }
+
+    .hero__title{
+
+        font-size:3rem;
+
+    }
+
+}
+
+
+/* ==========================================================
+   ≤ 992px
+========================================================== */
+
+@media (max-width:992px){
+
+    :root{
+
+        --container-padding:18px;
+
+    }
+
+    .site-header__inner{
+
+        min-height:72px;
+
+    }
+
+    .site-header__nav ul{
+
+        gap:var(--space-lg);
+
+    }
+
+    .hero{
+
+        padding-block:5rem;
+
+    }
+
+    .hero__title{
+
+        font-size:2.6rem;
+
+    }
+
+    .hero__description{
+
+        font-size:1rem;
+
+    }
+
+    .listing-grid{
+
+        grid-template-columns:
+        repeat(2,1fr);
+
+    }
+
+}
+
+/* ==========================================================
+   ≤ 768px
+========================================================== */
+
+@media (max-width:768px){
+
+    :root{
+
+        --container-padding:16px;
+
+    }
+
+    .site-header__inner{
+
+        flex-direction:column;
+
+        justify-content:center;
+
+        gap:1rem;
+
+        padding-block:1rem;
+
+    }
+
+    .site-header__nav ul{
+
+        flex-wrap:wrap;
+
+        justify-content:center;
+
+        gap:1rem;
+
+    }
+
+    .hero{
+
+        padding-block:4rem;
+
+    }
+
+    .hero__title{
+
+        font-size:2.2rem;
+
+    }
+
+    .hero__buttons{
+
+        flex-direction:column;
+
+    }
+
+    .hero__buttons .btn{
+
+        width:100%;
+
+    }
+
+    .listing-grid{
+
+        grid-template-columns:1fr;
+
+    }
+
+    .districts__list{
+
+        justify-content:flex-start;
+
+    }
+
+}
+
+
+/* ==========================================================
+   ≤ 576px
+========================================================== */
+
+@media (max-width:576px){
+
+    .hero__title{
+
+        font-size:1.9rem;
+
+    }
+
+    .hero__subtitle{
+
+        font-size:.8rem;
+
+    }
+
+    .hero__description{
+
+        font-size:.95rem;
+
+    }
+
+    .section-header h2{
+
+        font-size:2rem;
+
+    }
+
+    .listing-card__content{
+
+        padding:1.2rem;
+
+    }
+
+    .districts__link{
+
+        width:100%;
+
+    }
+
+}
+
+
+/* ==========================================================
+   ≤ 420px
+========================================================== */
+
+@media (max-width:420px){
+
+    .hero{
+
+        padding-block:3rem;
+
+    }
+
+    .hero__title{
+
+        font-size:1.7rem;
+
+    }
+
+    .site-header__logo{
+
+        font-size:1.25rem;
+
+    }
+
+    .btn{
+
+        min-width:100%;
+
+    }
+
+}
