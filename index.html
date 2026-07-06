@@ -2,49 +2,155 @@
 <html lang="tr">
 
 <head>
+
+    <!-- ========================================================= -->
+    <!-- Basic Meta -->
+    <!-- ========================================================= -->
+
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Profesyonel Masaj ve Wellness Hizmetleri | Ana Sayfa</title>
+    <!-- ========================================================= -->
+    <!-- Primary SEO -->
+    <!-- ========================================================= -->
+
+    <title>İstanbul Profesyonel Wellness & Spa Hizmetleri | Site Adı</title>
 
     <meta name="description"
-        content="Profesyonel masaj ve wellness hizmetleri. Deneyimli terapistler, hijyenik uygulamalar ve kolay rezervasyon.">
+        content="İstanbul'un farklı bölgelerinde profesyonel wellness ve spa hizmetlerini tek noktadan inceleyin. Güncel ilanlar, hızlı iletişim ve kolay erişim.">
 
-    <meta name="robots" content="index,follow">
+    <meta name="keywords"
+        content="istanbul wellness, spa, masaj, istanbul spa, profesyonel wellness, istanbul hizmetleri">
+
+    <meta name="author" content="Site Adı">
+
+    <meta name="robots" content="index, follow, max-image-preview:large">
+
+    <meta name="theme-color" content="#0F0F0F">
+
+    <!-- ========================================================= -->
+    <!-- Canonical -->
+    <!-- ========================================================= -->
+
+    <link rel="canonical" href="https://www.siteadi.com/">
+
+    <!-- ========================================================= -->
+    <!-- Favicon -->
+    <!-- ========================================================= -->
+
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+    <!-- ========================================================= -->
+    <!-- Open Graph -->
+    <!-- ========================================================= -->
+
+    <meta property="og:type" content="website">
+
+    <meta property="og:locale" content="tr_TR">
+
+    <meta property="og:site_name" content="Site Adı">
+
+    <meta property="og:title" content="İstanbul Profesyonel Wellness & Spa Hizmetleri">
+
+    <meta property="og:description"
+        content="İstanbul genelindeki profesyonel wellness ve spa hizmetlerini inceleyebilir, size en uygun ilanlara kolayca ulaşabilirsiniz.">
+
+    <meta property="og:url" content="https://www.siteadi.com/">
+
+    <meta property="og:image" content="https://www.siteadi.com/assets/images/og-image.jpg">
+
+    <!-- ========================================================= -->
+    <!-- Twitter -->
+    <!-- ========================================================= -->
+
+    <meta name="twitter:card" content="summary_large_image">
+
+    <meta name="twitter:title" content="İstanbul Profesyonel Wellness & Spa Hizmetleri">
+
+    <meta name="twitter:description" content="İstanbul genelindeki güncel wellness ve spa ilanlarını inceleyin.">
+
+    <meta name="twitter:image" content="https://www.siteadi.com/assets/images/og-image.jpg">
+
+    <!-- ========================================================= -->
+    <!-- Performance -->
+    <!-- ========================================================= -->
+
+    <meta name="color-scheme" content="dark">
+
+    <!-- ========================================================= -->
+    <!-- Google Fonts -->
+    <!-- ========================================================= -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- ========================================================= -->
+    <!-- CSS -->
+    <!-- ========================================================= -->
 
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/variables.css">
+    <link rel="stylesheet" href="assets/css/typography.css">
+    <link rel="stylesheet" href="assets/css/utilities.css">
+    <link rel="stylesheet" href="assets/css/components.css">
     <link rel="stylesheet" href="assets/css/main.css">
     <link rel="stylesheet" href="assets/css/responsive.css">
+
 </head>
 
 <body>
+    <!-- ========================================================= -->
+    <!-- Skip Link (Accessibility) -->
+    <!-- ========================================================= -->
 
-    <!-- HEADER -->
+    <a class="skip-link" href="#main-content">
+        Ana içeriğe geç
+    </a>
 
-    <header class="header">
+    <!-- ========================================================= -->
+    <!-- Site Header -->
+    <!-- ========================================================= -->
 
-        <div class="container">
+    <header class="site-header">
 
-            <a href="/" class="logo">
-                MASAJ EVİ
+        <div class="site-header__inner container">
+
+            <!-- Logo -->
+
+            <a href="/" class="site-header__logo" aria-label="Ana Sayfa">
+
+                <span>MASAJ EVİ</span>
+
             </a>
 
-            <nav class="navigation">
+            <!-- Navigation -->
+
+            <nav class="site-header__nav" aria-label="Ana Menü">
 
                 <ul>
 
-                    <li><a href="#services">Hizmetler</a></li>
+                    <li>
+                        <a href="#listings">İlanlar</a>
+                    </li>
 
-                    <li><a href="#therapists">Terapistler</a></li>
+                    <li>
+                        <a href="#districts">Bölgeler</a>
+                    </li>
 
-                    <li><a href="#locations">Bölgeler</a></li>
+                    <li>
+                        <a href="#about">Hakkımızda</a>
+                    </li>
 
-                    <li><a href="#about">Hakkımızda</a></li>
-
-                    <li><a href="#faq">SSS</a></li>
-
-                    <li><a href="#contact">İletişim</a></li>
+                    <li>
+                        <a href="#faq">S.S.S.</a>
+                    </li>
 
                 </ul>
 
@@ -54,114 +160,575 @@
 
     </header>
 
-    <!-- HERO -->
+    <!-- ========================================================= -->
+    <!-- Main Content -->
+    <!-- ========================================================= -->
 
-    <section class="hero">
+    <main id="main-content">
 
-        <div class="container hero-wrapper">
+        <!-- ========================================= -->
+        <!-- Hero Section -->
+        <!-- ========================================= -->
 
-            <div class="hero-content">
+        <section class="hero" aria-labelledby="hero-title">
 
-                <span class="hero-badge">
-                    Profesyonel Wellness Hizmeti
-                </span>
+            <div class="hero__inner container">
 
-                <h1>
-                    Profesyonel Masaj Hizmeti
-                </h1>
+                <p class="hero__subtitle">
 
-                <p>
-
-                    Deneyimli terapistlerimiz ile güvenli,
-                    hijyenik ve konforlu masaj hizmeti sunuyoruz.
+                    İstanbul'un farklı bölgelerindeki profesyonel hizmetleri tek sayfada inceleyin.
 
                 </p>
 
-                <div class="hero-buttons">
+                <h1 class="hero__title" id="hero-title">
 
-                    <a href="#therapists" class="btn btn-primary">
-                        Terapistleri İncele
+                    İstanbul Profesyonel Wellness & Spa Hizmetleri
+
+                </h1>
+
+                <p class="hero__description">
+
+                    Güncel ilanları inceleyebilir, size uygun bölgeyi seçebilir ve doğrudan WhatsApp üzerinden hızlıca
+                    iletişime geçebilirsiniz.
+
+                </p>
+
+                <div class="hero__buttons">
+
+                    <a href="#listings" class="btn btn-primary">
+
+                        İlanları Gör
+
                     </a>
 
-                    <a href="#contact" class="btn btn-secondary">
-                        İletişime Geç
+                    <a href="#districts" class="btn btn-secondary">
+
+                        Bölgeleri İncele
+
                     </a>
 
                 </div>
 
             </div>
 
-            <div class="hero-image">
+        </section>
 
-                <img
-                    src="assets/images/banners/hero.webp"
-                    alt="Profesyonel masaj hizmeti">
+        <!-- ========================================= -->
+        <!-- Listings -->
+        <!-- ========================================= -->
+
+        <section id="listings" class="listings" aria-labelledby="listings-title">
+
+            <div class="listings__inner container">
+
+                <header class="section-header">
+
+                    <h2 id="listings-title">
+
+                        Güncel İlanlar
+
+                    </h2>
+
+                    <p>
+
+                        İstanbul genelindeki güncel ilanları aşağıdan inceleyebilirsiniz.
+
+                    </p>
+
+                </header>
+
+                <div class="listing-grid">
+
+                    <!--
+                        İlan kartları burada olacak.
+                        Şimdilik boş bırakıyoruz.
+                    -->
+                    <article class="listing-card">
+
+                        <figure class="listing-card__image">
+
+                            <a href="/istanbul-ilanlar/nisantasi-ilan.html"
+                                aria-label="Nişantaşı Wellness & Spa ilanını görüntüle">
+
+                                <img src="assets\images\therapists\beyza.webp"
+                                    alt="Nişantaşı profesyonel wellness ve spa hizmeti" width="600" height="800"
+                                    loading="lazy" decoding="async">
+
+                            </a>
+
+                        </figure>
+
+                        <div class="listing-card__content">
+
+                            <span class="listing-card__location">
+                                📍 İstanbul / Nişantaşı
+                            </span>
+
+                            <h3 class="listing-card__title">
+
+                                <a href="/istanbul-ilanlar/nisantasi-ilan.html">
+
+                                    Beyza Nur
+
+                                </a>
+
+                            </h3>
+
+                            <p class="listing-card__description">
+
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+                            </p>
+
+                            <footer class="listing-card__footer">
+
+                                <a class="whatsapp-button" href="https://wa.me/905551112233" target="_blank"
+                                    rel="noopener noreferrer nofollow" aria-label="WhatsApp ile iletişime geç">
+                                    <svg class="whatsapp-button__icon" xmlns="http://www.w3.org/2000/svg"
+                                        viewBox="0 0 32 32" width="40" height="40" aria-hidden="true">
+
+                                        <path fill="currentColor"
+                                            d="M16.003 3C8.822 3 3 8.822 3 16.003c0 2.287.597 4.436 1.64 6.304L3 29l6.887-1.607a12.94 12.94 0 0 0 6.116 1.61C23.18 29.003 29 23.181 29 16.003 29 8.822 23.18 3 16.003 3zm0 23.61a10.55 10.55 0 0 1-5.375-1.475l-.385-.229-4.087.955.969-3.984-.251-.407a10.53 10.53 0 1 1 9.129 5.14zm5.794-7.87c-.317-.159-1.876-.926-2.167-1.031-.291-.106-.503-.159-.715.159-.211.317-.821 1.03-1.006 1.241-.185.212-.37.238-.687.08-.317-.159-1.339-.493-2.55-1.572-.943-.841-1.58-1.88-1.765-2.197-.185-.318-.02-.489.139-.647.143-.142.317-.37.476-.556.159-.185.211-.317.317-.529.106-.212.053-.397-.026-.556-.08-.159-.715-1.72-.98-2.355-.258-.619-.52-.535-.715-.545l-.609-.011c-.211 0-.556.08-.847.397-.291.317-1.111 1.085-1.111 2.646s1.138 3.069 1.296 3.28c.159.212 2.239 3.419 5.423 4.794.757.327 1.348.522 1.809.668.76.242 1.452.208 1.999.126.61-.091 1.876-.766 2.141-1.506.264-.741.264-1.374.185-1.506-.08-.133-.291-.212-.609-.37z" />
+
+                                    </svg>
+                                    WhatsApp
+
+                                </a>
+
+                            </footer>
+
+                        </div>
+
+                    </article>
+
+                    <!-- =======================================================
+                            LISTING CARD 01
+                        ======================================================== -->
+
+                    <article class="listing-card">
+
+                        <figure class="listing-card__image">
+
+                            <a href="/istanbul-ilanlar/nisantasi-ilan.html"
+                                aria-label="Nişantaşı Wellness & Spa ilanını görüntüle">
+
+                                <img src="assets/images/therapists/aleyna.webp"
+                                    alt="Nişantaşı profesyonel wellness ve spa hizmeti" width="600" height="800"
+                                    loading="lazy" decoding="async">
+
+                            </a>
+
+                        </figure>
+
+                        <div class="listing-card__content">
+
+                            <span class="listing-card__location">
+                                📍 İstanbul / Avcılar
+                            </span>
+
+                            <h3 class="listing-card__title">
+                                <a href="/istanbul-ilanlar/nisantasi-ilan.html">
+                                    Aleyna
+                                </a>
+                            </h3>
+
+                            <p class="listing-card__description">
+                                Modern ve konforlu ortamda profesyonel wellness deneyimi sunulmaktadır. Randevu ile
+                                hizmet verilmektedir.
+                            </p>
+
+                            <footer class="listing-card__footer">
+
+                                <a class="whatsapp-button" href="https://wa.me/905551112233" target="_blank"
+                                    rel="noopener noreferrer nofollow">
+
+                                    <!-- WhatsApp SVG -->
+                                    <svg class="whatsapp-button__icon" xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 32 32" width="40" height="40" aria-hidden="true">
+
+                                    <path fill="currentColor"
+                                        d="M16.003 3C8.822 3 3 8.822 3 16.003c0 2.287.597 4.436 1.64 6.304L3 29l6.887-1.607a12.94 12.94 0 0 0 6.116 1.61C23.18 29.003 29 23.181 29 16.003 29 8.822 23.18 3 16.003 3zm0 23.61a10.55 10.55 0 0 1-5.375-1.475l-.385-.229-4.087.955.969-3.984-.251-.407a10.53 10.53 0 1 1 9.129 5.14zm5.794-7.87c-.317-.159-1.876-.926-2.167-1.031-.291-.106-.503-.159-.715.159-.211.317-.821 1.03-1.006 1.241-.185.212-.37.238-.687.08-.317-.159-1.339-.493-2.55-1.572-.943-.841-1.58-1.88-1.765-2.197-.185-.318-.02-.489.139-.647.143-.142.317-.37.476-.556.159-.185.211-.317.317-.529.106-.212.053-.397-.026-.556-.08-.159-.715-1.72-.98-2.355-.258-.619-.52-.535-.715-.545l-.609-.011c-.211 0-.556.08-.847.397-.291.317-1.111 1.085-1.111 2.646s1.138 3.069 1.296 3.28c.159.212 2.239 3.419 5.423 4.794.757.327 1.348.522 1.809.668.76.242 1.452.208 1.999.126.61-.091 1.876-.766 2.141-1.506.264-.741.264-1.374.185-1.506-.08-.133-.291-.212-.609-.37z" />
+
+                                </svg>
+                                    <span>WhatsApp</span>
+
+                                </a>
+
+                            </footer>
+
+                        </div>
+
+                    </article>
+
+                    <!-- =======================================================
+                            LISTING CARD 02
+                        ======================================================== -->
+
+                    <article class="listing-card">
+
+                        <figure class="listing-card__image">
+
+                            <a href="/istanbul-ilanlar/etiler-ilan.html">
+
+                                <img src="assets/images/therapists/ayse.webp"
+                                    alt="Etiler profesyonel wellness hizmeti" width="600" height="800" loading="lazy"
+                                    decoding="async">
+
+                            </a>
+
+                        </figure>
+
+                        <div class="listing-card__content">
+
+                            <span class="listing-card__location">
+                                📍 İstanbul / Etiler
+                            </span>
+
+                            <h3 class="listing-card__title">
+
+                                <a href="/istanbul-ilanlar/etiler-ilan.html">
+
+                                    Ayşe
+
+                                </a>
+
+                            </h3>
+
+                            <p class="listing-card__description">
+
+                                Uzman ekibimiz ile rahatlatıcı wellness ve spa hizmetleri sunulmaktadır. Konfor ve
+                                hijyen ön plandadır.
+
+                            </p>
+
+                            <footer class="listing-card__footer">
+
+                                <a class="whatsapp-button" href="https://wa.me/905551112233" target="_blank"
+                                    rel="noopener noreferrer nofollow">
+
+                                    <!-- WhatsApp SVG -->
+                                    <svg class="whatsapp-button__icon" xmlns="http://www.w3.org/2000/svg"
+                                        viewBox="0 0 32 32" width="40" height="40" aria-hidden="true">
+
+                                        <path fill="currentColor"
+                                            d="M16.003 3C8.822 3 3 8.822 3 16.003c0 2.287.597 4.436 1.64 6.304L3 29l6.887-1.607a12.94 12.94 0 0 0 6.116 1.61C23.18 29.003 29 23.181 29 16.003 29 8.822 23.18 3 16.003 3zm0 23.61a10.55 10.55 0 0 1-5.375-1.475l-.385-.229-4.087.955.969-3.984-.251-.407a10.53 10.53 0 1 1 9.129 5.14zm5.794-7.87c-.317-.159-1.876-.926-2.167-1.031-.291-.106-.503-.159-.715.159-.211.317-.821 1.03-1.006 1.241-.185.212-.37.238-.687.08-.317-.159-1.339-.493-2.55-1.572-.943-.841-1.58-1.88-1.765-2.197-.185-.318-.02-.489.139-.647.143-.142.317-.37.476-.556.159-.185.211-.317.317-.529.106-.212.053-.397-.026-.556-.08-.159-.715-1.72-.98-2.355-.258-.619-.52-.535-.715-.545l-.609-.011c-.211 0-.556.08-.847.397-.291.317-1.111 1.085-1.111 2.646s1.138 3.069 1.296 3.28c.159.212 2.239 3.419 5.423 4.794.757.327 1.348.522 1.809.668.76.242 1.452.208 1.999.126.61-.091 1.876-.766 2.141-1.506.264-.741.264-1.374.185-1.506-.08-.133-.291-.212-.609-.37z" />
+
+                                    </svg>
+
+                                    <span>WhatsApp</span>
+
+                                </a>
+
+                            </footer>
+
+                        </div>
+
+                    </article>
+
+                    <!-- =======================================================
+                            LISTING CARD 03
+                        ======================================================== -->
+
+                    <article class="listing-card">
+
+                        <figure class="listing-card__image">
+
+                            <a href="/istanbul-ilanlar/levent-ilan.html">
+
+                                <img src="assets/images/therapists/cansu.webp" alt="Levent wellness ve spa hizmeti"
+                                    width="600" height="800" loading="lazy" decoding="async">
+
+                            </a>
+
+                        </figure>
+
+                        <div class="listing-card__content">
+
+                            <span class="listing-card__location">
+                                📍 İstanbul / Levent
+                            </span>
+
+                            <h3 class="listing-card__title">
+
+                                <a href="/istanbul-ilanlar/levent-ilan.html">
+
+                                    Cansu
+
+                                </a>
+
+                            </h3>
+
+                            <p class="listing-card__description">
+
+                                Kaliteli hizmet anlayışıyla güvenilir ve profesyonel wellness deneyimi sizleri bekliyor.
+
+                            </p>
+
+                            <footer class="listing-card__footer">
+
+                                <a class="whatsapp-button" href="https://wa.me/905551112233" target="_blank"
+                                    rel="noopener noreferrer nofollow">
+
+                                    <!-- WhatsApp SVG -->
+                                    <svg class="whatsapp-button__icon" xmlns="http://www.w3.org/2000/svg"
+                                        viewBox="0 0 32 32" width="40" height="40" aria-hidden="true">
+
+                                        <path fill="currentColor"
+                                            d="M16.003 3C8.822 3 3 8.822 3 16.003c0 2.287.597 4.436 1.64 6.304L3 29l6.887-1.607a12.94 12.94 0 0 0 6.116 1.61C23.18 29.003 29 23.181 29 16.003 29 8.822 23.18 3 16.003 3zm0 23.61a10.55 10.55 0 0 1-5.375-1.475l-.385-.229-4.087.955.969-3.984-.251-.407a10.53 10.53 0 1 1 9.129 5.14zm5.794-7.87c-.317-.159-1.876-.926-2.167-1.031-.291-.106-.503-.159-.715.159-.211.317-.821 1.03-1.006 1.241-.185.212-.37.238-.687.08-.317-.159-1.339-.493-2.55-1.572-.943-.841-1.58-1.88-1.765-2.197-.185-.318-.02-.489.139-.647.143-.142.317-.37.476-.556.159-.185.211-.317.317-.529.106-.212.053-.397-.026-.556-.08-.159-.715-1.72-.98-2.355-.258-.619-.52-.535-.715-.545l-.609-.011c-.211 0-.556.08-.847.397-.291.317-1.111 1.085-1.111 2.646s1.138 3.069 1.296 3.28c.159.212 2.239 3.419 5.423 4.794.757.327 1.348.522 1.809.668.76.242 1.452.208 1.999.126.61-.091 1.876-.766 2.141-1.506.264-.741.264-1.374.185-1.506-.08-.133-.291-.212-.609-.37z" />
+
+                                    </svg>
+
+                                    <span>WhatsApp</span>
+
+                                </a>
+
+                            </footer>
+
+                        </div>
+
+                    </article>
+
+                    <!-- =======================================================
+                        LISTING CARD 04
+                    ======================================================== -->
+
+                    <article class="listing-card">
+
+                        <figure class="listing-card__image">
+
+                            <a href="/istanbul-ilanlar/besiktas-ilan.html">
+
+                                <img src="assets/images/therapists/sibel.webp"
+                                    alt="Beşiktaş profesyonel spa hizmeti" width="600" height="800" loading="lazy"
+                                    decoding="async">
+
+                            </a>
+
+                        </figure>
+
+                        <div class="listing-card__content">
+
+                            <span class="listing-card__location">
+                                📍 İstanbul / Beşiktaş
+                            </span>
+
+                            <h3 class="listing-card__title">
+
+                                <a href="/istanbul-ilanlar/besiktas-ilan.html">
+
+                                    Sibel
+
+                                </a>
+
+                            </h3>
+
+                            <p class="listing-card__description">
+
+                                Deneyimli ekip ile hijyenik ortamda kaliteli wellness hizmetleri sunulmaktadır.
+
+                            </p>
+
+                            <footer class="listing-card__footer">
+
+                                <a class="whatsapp-button" href="https://wa.me/905551112233" target="_blank"
+                                    rel="noopener noreferrer nofollow">
+
+                                    <!-- WhatsApp SVG -->
+                                    <svg class="whatsapp-button__icon" xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 32 32" width="40" height="40" aria-hidden="true">
+
+                                    <path fill="currentColor"
+                                        d="M16.003 3C8.822 3 3 8.822 3 16.003c0 2.287.597 4.436 1.64 6.304L3 29l6.887-1.607a12.94 12.94 0 0 0 6.116 1.61C23.18 29.003 29 23.181 29 16.003 29 8.822 23.18 3 16.003 3zm0 23.61a10.55 10.55 0 0 1-5.375-1.475l-.385-.229-4.087.955.969-3.984-.251-.407a10.53 10.53 0 1 1 9.129 5.14zm5.794-7.87c-.317-.159-1.876-.926-2.167-1.031-.291-.106-.503-.159-.715.159-.211.317-.821 1.03-1.006 1.241-.185.212-.37.238-.687.08-.317-.159-1.339-.493-2.55-1.572-.943-.841-1.58-1.88-1.765-2.197-.185-.318-.02-.489.139-.647.143-.142.317-.37.476-.556.159-.185.211-.317.317-.529.106-.212.053-.397-.026-.556-.08-.159-.715-1.72-.98-2.355-.258-.619-.52-.535-.715-.545l-.609-.011c-.211 0-.556.08-.847.397-.291.317-1.111 1.085-1.111 2.646s1.138 3.069 1.296 3.28c.159.212 2.239 3.419 5.423 4.794.757.327 1.348.522 1.809.668.76.242 1.452.208 1.999.126.61-.091 1.876-.766 2.141-1.506.264-.741.264-1.374.185-1.506-.08-.133-.291-.212-.609-.37z" />
+
+                                </svg>
+
+                                    <span>WhatsApp</span>
+
+                                </a>
+
+                            </footer>
+
+                        </div>
+
+                    </article>
+
+                    <!-- =======================================================
+                            LISTING CARD 05
+                        ======================================================== -->
+
+                    <article class="listing-card">
+
+                        <figure class="listing-card__image">
+
+                            <a href="/istanbul-ilanlar/sisli-ilan.html">
+
+                                <img src="assets/images/therapists/sila.webp" alt="Şişli wellness merkezi" width="600"
+                                    height="800" loading="lazy" decoding="async">
+
+                            </a>
+
+                        </figure>
+
+                        <div class="listing-card__content">
+
+                            <span class="listing-card__location">
+                                📍 İstanbul / Şişli
+                            </span>
+
+                            <h3 class="listing-card__title">
+
+                                <a href="/istanbul-ilanlar/sisli-ilan.html">
+
+                                    Sıla
+
+                                </a>
+
+                            </h3>
+
+                            <p class="listing-card__description">
+
+                                Konforlu ortam, profesyonel hizmet ve kolay ulaşım avantajı ile kaliteli wellness
+                                deneyimi.
+
+                            </p>
+
+                            <footer class="listing-card__footer">
+
+                                <a class="whatsapp-button" href="https://wa.me/905551112233" target="_blank"
+                                    rel="noopener noreferrer nofollow">
+
+                                    <!-- WhatsApp SVG -->
+                                    <svg class="whatsapp-button__icon" xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 32 32" width="40" height="40" aria-hidden="true">
+
+                                    <path fill="currentColor"
+                                        d="M16.003 3C8.822 3 3 8.822 3 16.003c0 2.287.597 4.436 1.64 6.304L3 29l6.887-1.607a12.94 12.94 0 0 0 6.116 1.61C23.18 29.003 29 23.181 29 16.003 29 8.822 23.18 3 16.003 3zm0 23.61a10.55 10.55 0 0 1-5.375-1.475l-.385-.229-4.087.955.969-3.984-.251-.407a10.53 10.53 0 1 1 9.129 5.14zm5.794-7.87c-.317-.159-1.876-.926-2.167-1.031-.291-.106-.503-.159-.715.159-.211.317-.821 1.03-1.006 1.241-.185.212-.37.238-.687.08-.317-.159-1.339-.493-2.55-1.572-.943-.841-1.58-1.88-1.765-2.197-.185-.318-.02-.489.139-.647.143-.142.317-.37.476-.556.159-.185.211-.317.317-.529.106-.212.053-.397-.026-.556-.08-.159-.715-1.72-.98-2.355-.258-.619-.52-.535-.715-.545l-.609-.011c-.211 0-.556.08-.847.397-.291.317-1.111 1.085-1.111 2.646s1.138 3.069 1.296 3.28c.159.212 2.239 3.419 5.423 4.794.757.327 1.348.522 1.809.668.76.242 1.452.208 1.999.126.61-.091 1.876-.766 2.141-1.506.264-.741.264-1.374.185-1.506-.08-.133-.291-.212-.609-.37z" />
+
+                                </svg>
+
+                                    <span>WhatsApp</span>
+
+                                </a>
+
+                            </footer>
+
+                        </div>
+
+                    </article>
+                </div>
 
             </div>
 
-        </div>
+        </section>
 
-    </section>
+        <!-- ========================================= -->
+        <!-- Districts -->
+        <!-- ========================================= -->
 
-    <!-- SERVICES -->
+        <section id="districts" class="districts" aria-labelledby="districts-title">
 
-    <section id="services" class="services">
+            <div class="districts__inner container">
 
-        <div class="container">
+                <header class="section-header">
 
-            <h2>Hizmetlerimiz</h2>
+                    <h2 id="districts-title">
 
-            <div class="service-grid">
+                        Bölgelere Göre İlanlar
 
-                <article class="service-card">
-                    <h3>Klasik Masaj</h3>
-                    <p>Kasların gevşemesine yardımcı olur.</p>
-                </article>
+                    </h2>
 
-                <article class="service-card">
-                    <h3>Anti Stres Masajı</h3>
-                    <p>Günlük stresin azaltılmasına destek olur.</p>
-                </article>
+                    <p>
 
-                <article class="service-card">
-                    <h3>Spor Masajı</h3>
-                    <p>Aktif yaşam tarzına uygun uygulamalar.</p>
-                </article>
+                        İlgi duyduğunuz bölgeyi seçerek ilgili ilanlara ulaşabilirsiniz.
 
-                <article class="service-card">
-                    <h3>Aromaterapi</h3>
-                    <p>Doğal yağlarla rahatlatıcı deneyim.</p>
-                </article>
+                    </p>
 
-                <article class="service-card">
-                    <h3>Derin Doku</h3>
-                    <p>Yoğun kas gruplarına odaklanan uygulama.</p>
-                </article>
+                </header>
 
-                <article class="service-card">
-                    <h3>Wellness Paketi</h3>
-                    <p>Rahatlama odaklı seans seçenekleri.</p>
-                </article>
+                <div class="districts__list">
+
+                    <!-- Linkler burada olacak -->
+
+                    <a class="districts__link" href="https://www.google.com" target="_self">İstanbul/Avrupa</a>
+                    <a class="districts__link" href="https://www.google.com" target="_self">İstanbul/Anadolu</a>
+                    <a class="districts__link" href="https://www.google.com" target="_self">Nişantaşı</a>
+                    <a class="districts__link" href="https://www.google.com" target="_self">Bebek</a>
+                    <a class="districts__link" href="https://www.google.com" target="_self">Beşiktaş</a>
+                </div>
 
             </div>
 
-        </div>
+        </section>
 
-    </section>
+        <!-- ========================================= -->
+        <!-- About -->
+        <!-- ========================================= -->
 
-    <!-- THERAPISTS -->
+        <section id="about" class="about" aria-labelledby="about-title">
 
-    <main>
+            <div class="about__inner container">
 
-        <section id="therapists" class="therapists">
+                <h2 class="about__title" id="about-title">
 
-            <div class="container">
+                    Nasıl Hizmet Veriyoruz?
 
-                <h2>Terapistlerimiz</h2>
+                </h2>
 
-                <div class="therapist-grid">
+                <p class="about__description">Açıklama...</p>
 
-                    <!-- JS ile doldurulacak -->
+
+            </div>
+
+        </section>
+
+        <!-- ========================================= -->
+        <!-- Why Us -->
+        <!-- ========================================= -->
+
+        <section class="why-us" aria-labelledby="why-title">
+
+            <div class="why-us__inner container">
+
+                <h2 class="why-us__title" id="why-title">
+
+                    Neden Bizi Tercih Etmelisiniz?
+
+                </h2>
+
+                <p class="why-us__description">
+
+                    Bu bölüm daha sonra SEO uyumlu içeriklerle hazırlanacaktır.
+
+                </p>
+
+            </div>
+
+        </section>
+
+        <!-- ========================================= -->
+        <!-- FAQ -->
+        <!-- ========================================= -->
+
+        <section id="faq" class="faq" aria-labelledby="faq-title">
+
+            <div class="faq__inner container">
+
+                <h2 class="faq__title" id="faq-title">
+
+                    Sık Sorulan Sorular
+
+                </h2>
+
+                <div class="faq__item">
+
+                    <h3 class="faq__question">
+                        Hizmetleriniz nelerdir?
+                    </h3>
+
+                    <p class="faq__answer">
+                        Çok şeydir
+                    </p>
 
                 </div>
 
@@ -171,150 +738,29 @@
 
     </main>
 
-    <!-- LOCATIONS -->
+    <!-- ========================================================= -->
+    <!-- Footer -->
+    <!-- ========================================================= -->
 
-    <section id="locations" class="locations">
+    <footer class="site-footer">
 
-        <div class="container">
+        <div class="site-footer__inner container">
 
-            <h2>Hizmet Bölgeleri</h2>
+            <p>
 
-            <nav class="location-grid">
+                © 2026 Site Adı. Tüm hakları saklıdır.
 
-                <a href="#">Nişantaşı</a>
-                <a href="#">Etiler</a>
-                <a href="#">Şişli</a>
-                <a href="#">Levent</a>
-                <a href="#">Beşiktaş</a>
-                <a href="#">Kadıköy</a>
-                <a href="#">Ataşehir</a>
-                <a href="#">Bakırköy</a>
-                <a href="#">Üsküdar</a>
-                <a href="#">Maltepe</a>
-                <a href="#">Beylikdüzü</a>
-                <a href="#">Sarıyer</a>
-
-            </nav>
-
-        </div>
-
-    </section>
-
-    <!-- WHY US -->
-
-    <section id="about" class="advantages">
-
-        <div class="container">
-
-            <h2>Neden Bizi Tercih Etmelisiniz?</h2>
-
-            <div class="advantage-grid">
-
-                <article>
-                    <h3>Deneyimli Ekip</h3>
-                    <p>Alanında eğitimli terapistler.</p>
-                </article>
-
-                <article>
-                    <h3>Hijyen</h3>
-                    <p>Temizlik ve güvenlik önceliğimizdir.</p>
-                </article>
-
-                <article>
-                    <h3>Kolay Rezervasyon</h3>
-                    <p>Hızlı rezervasyon süreci.</p>
-                </article>
-
-                <article>
-                    <h3>Memnuniyet</h3>
-                    <p>Müşteri odaklı hizmet anlayışı.</p>
-                </article>
-
-            </div>
-
-        </div>
-
-    </section>
-
-    <!-- HOW -->
-
-    <section class="steps">
-
-        <div class="container">
-
-            <h2>Nasıl Çalışıyoruz?</h2>
-
-            <ol>
-
-                <li>Rezervasyon oluşturun.</li>
-
-                <li>Uygun terapist planlansın.</li>
-
-                <li>Randevu saatinde hizmet alın.</li>
-
-                <li>Görüşlerinizi bizimle paylaşın.</li>
-
-            </ol>
-
-        </div>
-
-    </section>
-
-    <!-- FAQ -->
-
-    <section id="faq" class="faq">
-
-        <div class="container">
-
-            <h2>Sık Sorulan Sorular</h2>
-
-            <details>
-                <summary>Randevu nasıl oluşturulur?</summary>
-                <p>İletişim bilgilerimiz üzerinden rezervasyon talebinizi iletebilirsiniz.</p>
-            </details>
-
-            <details>
-                <summary>Hangi bölgelerde hizmet veriyorsunuz?</summary>
-                <p>Hizmet bölgeleri sayfamızdan güncel bölgeleri inceleyebilirsiniz.</p>
-            </details>
-
-            <details>
-                <summary>Seans süresi ne kadardır?</summary>
-                <p>Seçilen hizmete göre değişiklik gösterebilir.</p>
-            </details>
-
-        </div>
-
-    </section>
-
-    <!-- CONTACT -->
-
-    <section id="contact" class="contact">
-
-        <div class="container">
-
-            <h2>İletişim</h2>
-
-            <p>Telefon, e-posta veya iletişim formu üzerinden bize ulaşabilirsiniz.</p>
-
-        </div>
-
-    </section>
-
-    <!-- FOOTER -->
-
-    <footer class="footer">
-
-        <div class="container">
-
-            <p>&copy; 2026 Masaj Evi. Tüm Hakları Saklıdır.</p>
+            </p>
 
         </div>
 
     </footer>
 
-    <script src="assets/js/main.js"></script>
+    <!-- ========================================================= -->
+    <!-- JavaScript -->
+    <!-- ========================================================= -->
 
+    <script src="assets/js/main.js" defer></script>
 </body>
 
 </html>
