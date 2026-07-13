@@ -2,6 +2,16 @@ const languageSelect = document.getElementById("language-select");
 
 if (languageSelect) {
 
+    // Sayfa açılırken dili URL'den al
+    const currentLanguage = window.location.pathname.split("/")[1];
+
+    if (["tr", "en", "ar"].includes(currentLanguage)) {
+
+        languageSelect.value = currentLanguage;
+
+    }
+
+    // Dil değiştirildiğinde yönlendir
     languageSelect.addEventListener("change", function () {
 
         const language = this.value;
@@ -16,7 +26,7 @@ if (languageSelect) {
 
 }
 
-
+// animation for mobile
 const header = document.querySelector(".site-header");
 
 let isCompact = false;
