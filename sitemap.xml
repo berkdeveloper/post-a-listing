@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<urlset 
+    xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+
+    <!-- Ana Sayfa -->
+
+    <url>
+        <loc>https://www.masajvip.com/</loc>
+        <lastmod>2026-07-14</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+
+    <!-- Türkçe Ana Sayfalar -->
+
+    <url>
+        <loc>https://www.masajvip.com/tr/istanbul-evde-otelde-masaj/index.html</loc>
+        <lastmod>2026-07-14</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+    </url>
+
+
+    <!-- İstanbul Avrupa -->
+
+    <url>
+        <loc>https://www.masajvip.com/tr/istanbul-avrupa-masaj/istanbul-avrupa-masaj.html</loc>
+        <lastmod>2026-07-14</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+
+    <!-- İstanbul Anadolu -->
+
+    <url>
+        <loc>https://www.masajvip.com/tr/istanbul-anadolu-masaj/istanbul-anadolu-masaj.html</loc>
+        <lastmod>2026-07-14</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+
+    <!-- Şehirler -->
+
+    <url>
+        <loc>https://www.masajvip.com/tr/izmir-evde-otelde-masaj/izmir-masaj.html</loc>
+        <lastmod>2026-07-14</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+
+    <url>
+        <loc>https://www.masajvip.com/tr/ankara-evde-otelde-masaj/ankara-masaj.html</loc>
+        <lastmod>2026-07-14</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+
+    <url>
+        <loc>https://www.masajvip.com/tr/antalya-evde-otelde-masaj/antalya-masaj.html</loc>
+        <lastmod>2026-07-14</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+
+    <url>
+        <loc>https://www.masajvip.com/tr/bursa-evde-otelde-masaj/bursa-masaj.html</loc>
+        <lastmod>2026-07-14</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+
+    <url>
+        <loc>https://www.masajvip.com/tr/alanya-evde-otelde-masaj/alanya-masaj.html</loc>
+        <lastmod>2026-07-14</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+
+    <!-- Örnek Bölge -->
+
+    <url>
+        <loc>https://www.masajvip.com/tr/istanbul-evde-otelde-masaj/besiktas-masaj.html</loc>
+        <lastmod>2026-07-14</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+
+
+    <url>
+        <loc>https://www.masajvip.com/tr/istanbul-evde-otelde-masaj/levent-masaj.html</loc>
+        <lastmod>2026-07-14</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+
+
+    <url>
+        <loc>https://www.masajvip.com/tr/istanbul-evde-otelde-masaj/etiler-masaj.html</loc>
+        <lastmod>2026-07-14</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+
+
+<!-- Mecidiyeköy -->
+
+<url>
+    <loc>https://www.masajvip.com/tr/istanbul-evde-otelde-masaj/mecidiyekoy-masaj.html</loc>
+    <lastmod>2026-07-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+</url>
+
+
+<!-- Gayrettepe -->
+
+<url>
+    <loc>https://www.masajvip.com/tr/istanbul-evde-otelde-masaj/gayrettepe-masaj.html</loc>
+    <lastmod>2026-07-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+</url>
+
+
+<!-- Levent -->
+
+<url>
+    <loc>https://www.masajvip.com/tr/istanbul-evde-otelde-masaj/levent-masaj.html</loc>
+    <lastmod>2026-07-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+</url>
+
+
+<!-- Nişantaşı -->
+
+<url>
+    <loc>https://www.masajvip.com/tr/istanbul-evde-otelde-masaj/nisantasi-masaj.html</loc>
+    <lastmod>2026-07-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+</url>
+
+
+<!-- Şişli -->
+
+<url>
+    <loc>https://www.masajvip.com/tr/istanbul-evde-otelde-masaj/sisli-masaj.html</loc>
+    <lastmod>2026-07-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+</url>
+
+
+<!-- Maslak -->
+
+<url>
+    <loc>https://www.masajvip.com/tr/istanbul-evde-otelde-masaj/maslak-masaj.html</loc>
+    <lastmod>2026-07-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+</url>
+
+
+<!-- Sarıyer -->
+
+<url>
+    <loc>https://www.masajvip.com/tr/istanbul-evde-otelde-masaj/sariyer-masaj.html</loc>
+    <lastmod>2026-07-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+</url>
+
+
+<!-- Tarabya -->
+
+<url>
+    <loc>https://www.masajvip.com/tr/istanbul-evde-otelde-masaj/tarabya-masaj.html</loc>
+    <lastmod>2026-07-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+</url>
+
+
+<!-- Bebek -->
+
+<url>
+    <loc>https://www.masajvip.com/tr/istanbul-evde-otelde-masaj/bebek-masaj.html</loc>
+    <lastmod>2026-07-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+</url>
+
+
+<!-- Kadıköy -->
+
+<url>
+    <loc>https://www.masajvip.com/tr/istanbul-evde-otelde-masaj/kadikoy-masaj.html</loc>
+    <lastmod>2026-07-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+</url>
+
+
+<!-- Acıbadem -->
+
+<url>
+    <loc>https://www.masajvip.com/tr/istanbul-evde-otelde-masaj/acibadem-masaj.html</loc>
+    <lastmod>2026-07-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+</url>
+
+
+<!-- Bostancı -->
+
+<url>
+    <loc>https://www.masajvip.com/tr/istanbul-evde-otelde-masaj/bostanci-masaj.html</loc>
+    <lastmod>2026-07-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+</url>
+
+
+<!-- Suadiye -->
+
+<url>
+    <loc>https://www.masajvip.com/tr/istanbul-evde-otelde-masaj/suadiye-masaj.html</loc>
+    <lastmod>2026-07-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+</url>
+
+
+<!-- Ataşehir -->
+
+<url>
+    <loc>https://www.masajvip.com/tr/istanbul-evde-otelde-masaj/atasehir-masaj.html</loc>
+    <lastmod>2026-07-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+</url>
+
+
+<!-- Üsküdar -->
+
+<url>
+    <loc>https://www.masajvip.com/tr/istanbul-evde-otelde-masaj/uskudar-masaj.html</loc>
+    <lastmod>2026-07-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+</url>
+
+
+<!-- Ümraniye -->
+
+<url>
+    <loc>https://www.masajvip.com/tr/istanbul-evde-otelde-masaj/umraniye-masaj.html</loc>
+    <lastmod>2026-07-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+</url>
+
+
+<!-- Maltepe -->
+
+<url>
+    <loc>https://www.masajvip.com/tr/istanbul-evde-otelde-masaj/maltepe-masaj.html</loc>
+    <lastmod>2026-07-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+</url>
+
+
+<!-- Kartal -->
+
+<url>
+    <loc>https://www.masajvip.com/tr/istanbul-evde-otelde-masaj/kartal-masaj.html</loc>
+    <lastmod>2026-07-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+</url>
+
+
+<!-- Pendik -->
+
+<url>
+    <loc>https://www.masajvip.com/tr/istanbul-evde-otelde-masaj/pendik-masaj.html</loc>
+    <lastmod>2026-07-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+</url>
+
+
+<!-- Tuzla -->
+
+<url>
+    <loc>https://www.masajvip.com/tr/istanbul-evde-otelde-masaj/tuzla-masaj.html</loc>
+    <lastmod>2026-07-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+</url>
+
+
+</urlset>
