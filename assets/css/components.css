@@ -141,7 +141,7 @@
 
 .hero__inner {
 
-    max-width: 900px;
+    max-width: 1000px;
 
     margin-inline: auto;
 
@@ -769,7 +769,7 @@
     display: flex;
     align-items: center;
     margin-left: 1.5rem;
-     gap: 8px;
+    gap: 8px;
 }
 
 .language-selector__select {
@@ -804,7 +804,7 @@
     background-position: right .8rem center;
 
     background-size: 16px;
-
+    
     margin-left: 10px;
 }
 
@@ -962,4 +962,16 @@
 
     transform:translateY(0);
 
+}
+
+.language-selector label {
+    margin-right: 1px;
+    display: flex;
+    align-items: center;
+}
+
+.language-selector h3 {
+    margin: 0;
+    line-height: 1;
+    font-size: 1.9rem;
 }
